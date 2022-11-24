@@ -1,0 +1,13 @@
+i learn from this project
+
+framer motion deaply
+
+react splider which is use for slider
+
+.env
+
+how to add active class to button because in router active class already present but in button it is not
+
+param and nivigation hooks are necessary when you get data from api
+
+how to get item in product page
