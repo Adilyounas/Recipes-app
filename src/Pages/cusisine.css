@@ -1,0 +1,39 @@
+
+
+.grids{
+    /* border: 1px solid red; */
+    display: flex;
+  
+
+    
+}
+
+.grids .card{
+    /* border: 10px solid rgb(25, 0, 255); */
+    max-width: 200px;
+    margin: 1vmin 0;
+}
+
+.grids .card>a{
+    display: flex;
+    flex-direction: column;
+    margin: 1vmax;
+    text-decoration: none;
+
+    
+}
+
+.grids .card>a>img{
+    width: 100%;
+    border-radius: 7px;
+
+}
+
+.grids .card>a>h5{
+     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    font-size: 2.3vmin;
+    padding: .7vmin 1vmax;
+}
+

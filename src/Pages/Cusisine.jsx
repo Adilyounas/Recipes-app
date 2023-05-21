@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { NavLink, useParams } from "react-router-dom";
 import "../index.css";
+import "./cusisine.css"
 
 const Cusisine = () => {
   const [cuisine, setCuisine] = useState([]);
@@ -30,12 +31,12 @@ const Cusisine = () => {
     >
       {cuisine.map((item) => {
         return (
-          <Card key={item.id}>
+          <div className="card" key={item.id}>
             <NavLink to={"/recipe/" + item.id} key={item.id}>
-              <img src={item.image} alt="image" />
-              <h5>{item.title} sdd</h5>
+              <img src={item.image} alt="img" />
+              <h5>{item.title}</h5>
             </NavLink>
-          </Card>
+          </div>
         );
       })}
     </motion.div>

@@ -1,0 +1,44 @@
+
+
+.wrapper{
+display: flex;
+flex-direction: column;
+/* border: 1px solid red;overflow: auto; */
+}
+
+
+.wrapper .spliderContainer {
+/* border: 1px solid blue; */
+min-width: 25vmax;
+
+/* max-height: 200px; */
+
+}
+
+.wrapper .spliderContainer >a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+.wrapper .spliderContainer >a >img {
+    width: 100%;
+    border-radius: 1vmax;
+}
+
+.wrapper .spliderContainer >a >p {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.5vmax;
+
+}
